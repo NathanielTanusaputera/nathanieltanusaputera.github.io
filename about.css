@@ -50,10 +50,10 @@ nav img{
     background:white;
     display: flex;
     flex-direction: column;
-    color:#2D3047;
     justify-content: center;
     align-items: center;
     position: relative;
+    font-size: 28px;
     margin: 0px;
 }
 .container-aboutus{
@@ -62,10 +62,11 @@ nav img{
     padding: 40px 20px;
 }
 .about h1{
-    font-size: 56px;
     text-align: center;
     position: relative;
     margin-bottom: 0px;
+    color:darkcyan;
+    font-size: 52px;
 }
 .container-aboutus p{
     font-size: 18px;
@@ -146,6 +147,7 @@ img{
     position: relative;
     font-size: 24px;
     margin: 0px 0px 50px;
+    color:orangered;
 }
 .footer{
     height: 150px;

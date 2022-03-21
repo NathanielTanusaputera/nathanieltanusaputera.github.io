@@ -41,7 +41,7 @@ nav img{
     font-weight: bold;
 }
 .nav-links li a:hover{
-    color:yellow;
+    color:orangered;;
     transition: 0.4s;
 }
 .donate{
@@ -51,11 +51,11 @@ nav img{
     align-items: center;
     justify-content: center;
     color:darkcyan;
-    font-size: 28px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 .donate h1{
-    padding: 20px 0px 20px;
+    padding: 50px 0px 50px;
+    font-size: 52px;
 }
 .donate-container{
     display: flex;
@@ -64,15 +64,15 @@ nav img{
     align-items: center;
     justify-content: center;
     color:darkcyan;
-    height: max-content;
     flex-wrap: wrap;
     border: 5px solid darkcyan;
+    border-radius: 10px;
 }
 .donate-container img{
     width: 200px;
 }
 .box{
-    width: 500px;
+    width: 420px;
     height: 400px;
     margin: 30px;
     text-align: center;
@@ -80,8 +80,16 @@ nav img{
     border-radius: 10px;
     flex: 1;
 }
+#apps{
+    width: 300px;
+}
 .box h2{
-    font-size: 32px;
+    font-size: 42px;
+    margin: 20px;
+    color:orangered;
+}
+.box h4{
+    font-size: 24px;
     margin: 20px;
 }
 .quotes{
@@ -91,7 +99,8 @@ nav img{
     align-items: center;
     position: relative;
     font-size: 24px;
-    margin: 40px 0px 40px;
+    margin: 0px 0px 40px;
+    color:orangered;
 }
 .footer{
     height: 150px;
