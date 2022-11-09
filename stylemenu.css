@@ -20,7 +20,7 @@ html{
     position: absolute;
     width: 100%;
     background: rgba(0, 0, 0, 0.75);
-    text-align: left;
+    text-align: center;
     height: 20.81165452653486vh;
     transition: 0.5s;
     top: 0;
@@ -41,7 +41,7 @@ html{
     text-align: center;
     position: relative;
     top: 6.243496357960458vh;
-    left: 10vw;
+    left: 1vw;
     display: inline-flex;
     list-style: none;
     color: white;
@@ -50,7 +50,7 @@ html{
     font-size: 0.9375vw;
     width: 7.8125vw;
     margin: 0.5208333333333334vw;
-    padding: 0.78125vw;
+    padding: 1.78125vw;
 }
 .menu ul li a{
     text-decoration: none;
@@ -241,4 +241,19 @@ html{
     text-transform: uppercase;
     letter-spacing: 10%;
     font-weight: 100;
+}
+.list-menu{
+    text-align: center;
+}
+.list-menu a{
+    position: relative;
+    justify-content: space-between;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    top: 480px;
+    display: inline;
+    color: white;
+    text-align: center;
+    font-size: 1.965065502183406vh;
+    font-weight: bold;
 }
