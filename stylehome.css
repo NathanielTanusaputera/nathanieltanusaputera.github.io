@@ -70,10 +70,12 @@ body {
     margin-right: auto;
     z-index: 1;
     text-transform: uppercase;
+    font-weight: 900;
 }
 .menu button:hover {
     background-color: #8b0000;
     color: white;
+    cursor: pointer;
   }
   
 .menu-button button{
@@ -100,10 +102,10 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    top: -20px;
+    top: -25px;
     height: 59.375vw;
     min-height: 59.375vw; 
-    margin-bottom: -4.4vw;
+    margin-bottom: -5vw;
 }
 
 .opening-home{
