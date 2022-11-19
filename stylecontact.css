@@ -7,7 +7,7 @@
 }
 div{line-height:0;}
 html{
-    height: 100%;
+    
     width: 100%;
   }
   body {
@@ -135,8 +135,7 @@ html{
 }
 .bottom{
     position: relative;
-    top: 500px;
-    height: 10vw;
+    top: 20vw;
 }
 .footer{
     position: absolute;
@@ -153,7 +152,6 @@ html{
     font-weight: 100;
     font-size: 1.0811654526534857vw;
     text-align: center;
-
 }
 .delivery1{
     position: absolute;
@@ -264,30 +262,34 @@ html{
     position: relative;
     top: -18vw;
     height: 51vw;
+    background: white;
+    width: 100%;
 }
 .meja img{
-    width: 41.666666666666664vw;
+    width: 42vw;
+    margin-bottom: -16vw;
+    margin-left: 0;
 }
 
 .container {
     position: relative;
-    top: -68.75vw;
-    left: 41vw;
-    width: 60vw;
+    top: -50.75vw;
+    left: 42vw;
+    width: 58vw;
     height: 69vw;
-    padding: 16px;
+    padding: 1.4vw;
     background-color: rgb(255, 255, 255);
   }
 .container p{
     color: black;
-    line-height: 100px;
+    line-height: 6vw;
     margin-left: 2.5vw;
     font-size: 1.6666666666666667vw;
 }
  
   input[type=text] {
     width: 90%;
-    padding: 3.591666666666667vw 1vw;
+    padding: 2.1vw 1vw;
     margin: 1vw 0 1vw 2.5vw;
     display: inline-block;
     border: none;
@@ -306,25 +308,142 @@ html{
   
   .registerbtn {
     position: relative;
-    top: 10px;
+    top: 1vw;
     left: 2.5vw;
     background-color: rgb(88, 88, 88);
     color: white;
-    padding: 16px 20px;
-    margin: 8px 0;
+    padding: 1vw 1vw;
+    
     border: none;
     cursor: pointer;
     width: 15vw;
     opacity: 0.9;
     border-radius: 10vw;
-    letter-spacing: 0.3vw;
+    letter-spacing: 0.1vw;
     font-size: 1.0416666666666667vw;
   }
   
   .registerbtn:hover {
     opacity: 1;
   }
+.map{
+    position: relative;
+    top: 0;
+    margin-bottom: 0;
+}
+  .reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
   
+  .reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  .fade-in {
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+    -ms-animation: fadeIn ease 1s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+  }
+  .fade-in1 {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+  }
   
 
   
