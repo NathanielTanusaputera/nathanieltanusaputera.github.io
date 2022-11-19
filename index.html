@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="stylehome.css">
+    <link rel="icon" href="1x\Untitled-Artwork (6).png" type="image/icon type">
+</head>
+<body>
+    <div class="menu">
+        <a href="home.html"><img src="1x\Untitled-Artwork (6).png"></a>
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <a href="reservation.html"><button type="button">Book a Table</button></a>
+    </div>
+<section class="tag pertama">
+   <div class="title-image fade-in1"></div>
+
+   <div class="opening-home fade-in">
+    <img src="tako.png">
+    <P><span style="font-size: 2.34375vw; font-weight: 400;">Welcome to Tako Grill</span><br>
+        we offer a highly seasonal and continuously evolving tasting menu experience
+    </P>
+</div>
+   <div class="menu-button fade-in">
+    <a href="menu.html"><button type="button">CHECK OUT OUR MENU</button></a>
+   </div>
+</section>
+<section class="tag kedua">
+    <div class="content">
+        <div class="slides fade">
+            <img src="2x\Asset 8@2x.png" width="100%">
+        </div>
+        <div class="slides fade">
+            <img src="2x\image1@2x.png" width="100%">
+        </div>
+        <div class="slides fade">
+            <img src="2x\image3@2x.png" width="100%">
+        </div>
+        <div class="slides fade">
+            <img src="2x\image4@2x.png" width="100%">
+        </div>
+        <div class="slides fade">
+            <img src="2x\image5@2x.png" width="100%">
+        </div>
+        
+        <div class="center-dot">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+</section>
+<section class="tag ketiga">
+    <div class="content-text reveal">
+        <div class="opening">
+            <h1>ABOUT US</h1>
+            <h2>私たちに関しては</h2>
+            <P>we proudly serve authentic Japanese cuisine with fresh ingredients and friendly service. As an established part of the Bethesda dining scene—we opened in 1988—we hope to keep renewing the trust of our long-time guests and to warmly welcome new ones. Enjoy! At this time, we are take-out only.</P>
+        </div>
+    </div>
+    <div class="comment">
+        <img src="2x\Asset 9@2x.png" width="100%">
+</section>
+    </div>
+    <div class="special">
+        <h1 class="reveal">TODAY 'S SPECIAL</h1>
+        <h3 class="reveal">FROM OUR SUSHI BAR</h3>
+        <img src="1x\sushi.png" width="100%" class="reveal">
+        <h4 class="reveal"><b>TORO SASHIMI (5 PIECES)</b><br>
+            Bluefin belly part of tuna</li>
+        <h5 class="reveal"><b>RED SNAPPER SASHIMI (5 PIECES)</b><br>
+            We call “Madai” from Kumamoto, <br>Japan farm raised</h5>
+        <h6 class="reveal"><b>AJI (JACK MAKEREL) SASHIMI</b><br>
+            Use whole fish for sashimi and<br> fried born and head.
+            </h6>
+    </div>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.2052770465275!2d-77.09940411249804!3d38.9834770429726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c9645d50b71b%3A0x72bc6d246e4f6c9a!2sTako%20Grill!5e0!3m2!1sen!2sid!4v1667642505145!5m2!1sen!2sid" width="100%" height="666" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+    </div>
+
+    <div class="scroll-up">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+    </div>
+    <div class="bottom">
+        <div class="footer">
+            <div class="gambar">
+                <img src="FOOTER.png" width="100%">
+            </div> 
+            <a href="https://www.doordash.com/"><img class="delivery1" src="figma\pngegg (6).png"></a>
+            <a href="https://www.ubereats.com/"><img class="delivery2" src="figma\pngegg (5).png"></a>
+            <a href="https://postmates.com/"><img class="delivery3" src="figma\pngegg (2).png"></a>
+            <a href="https://www.facebook.com/takogrillmd/"><img class="social1" src="figma\facebook-app-symbol.png" width="3%"></a>
+            <a href="https://www.instagram.com/takogrill/"><img class="social1" src="figma\instagram.png" width="3%"></a>
+            <a href="mailto:tako@takogrill.com"><img class="social1" src="figma\email (1).png" width="3%"></a>
+            <h5>Copyright ⓒ 2022 Tako Grill.</h5>
+        </div>
+        </div>
+        <script>
+
+            let mybutton = document.getElementById("myBtn");
+            
+        
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "flex";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+    <script src="menu.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
