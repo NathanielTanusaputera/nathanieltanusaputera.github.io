@@ -68,15 +68,15 @@
         <img src="2x\Asset 9@2x.png" width="100%">
 </section>
     </div>
-    <div class="special reveal">
-        <h1>TODAY 'S SPECIAL</h1>
-        <h3>FROM OUR SUSHI BAR</h3>
-        <img src="1x\sushi.png" width="100%">
-        <h4><b>TORO SASHIMI (5 PIECES)</b><br>
+    <div class="special">
+        <h1 class="reveal">TODAY 'S SPECIAL</h1>
+        <h3 class="reveal">FROM OUR SUSHI BAR</h3>
+        <img src="1x\sushi.png" width="100%" class="reveal">
+        <h4 class="reveal"><b>TORO SASHIMI (5 PIECES)</b><br>
             Bluefin belly part of tuna</li>
-        <h5><b>RED SNAPPER SASHIMI (5 PIECES)</b><br>
+        <h5 class="reveal"><b>RED SNAPPER SASHIMI (5 PIECES)</b><br>
             We call “Madai” from Kumamoto, <br>Japan farm raised</h5>
-        <h6><b>AJI (JACK MAKEREL) SASHIMI</b><br>
+        <h6 class="reveal"><b>AJI (JACK MAKEREL) SASHIMI</b><br>
             Use whole fish for sashimi and<br> fried born and head.
             </h6>
     </div>
@@ -84,7 +84,9 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.2052770465275!2d-77.09940411249804!3d38.9834770429726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c9645d50b71b%3A0x72bc6d246e4f6c9a!2sTako%20Grill!5e0!3m2!1sen!2sid!4v1667642505145!5m2!1sen!2sid" width="100%" height="666" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
     </div>
 
-    
+    <div class="scroll-up">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+    </div>
     <div class="bottom">
         <div class="footer">
             <div class="gambar">
@@ -99,7 +101,26 @@
             <h5>Copyright ⓒ 2022 Tako Grill.</h5>
         </div>
         </div>
-    
+        <script>
+
+            let mybutton = document.getElementById("myBtn");
+            
+        
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "flex";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
     <script src="menu.js"></script>
     <script src="script.js"></script>
 </body>

@@ -249,7 +249,7 @@ html{
     position: relative;
     margin-top: 3vw;
 }
-.list-menu a{
+.list-menu button{
     justify-content: space-between;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
@@ -258,6 +258,9 @@ html{
     text-align: center;
     font-size: 0.965065502183406vw;
     font-weight: bold;
+    background: none;
+    border: none;
+    text-decoration: underline;
 }
 .drinks{
     margin-left: 3vw;

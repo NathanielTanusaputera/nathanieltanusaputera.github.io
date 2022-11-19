@@ -310,7 +310,22 @@ img{
     align-items: center;
     padding: 0.5vw;
 }
-
+.scroll-up{
+  position: relative;
+  text-align: center;
+  top: -5vw;
+  left: 48vw;
+  margin-bottom: -8vw;
+}
+.scroll-up button{
+  
+  color: white;
+  background: black;
+  border: none;
+  font-size: 2.4vw;
+  padding: 0.5vw 1.3vw 0;
+  border-radius: 50%;
+}
 .reveal{
     position: relative;
     transform: translateY(150px);

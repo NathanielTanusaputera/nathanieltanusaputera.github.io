@@ -69,6 +69,7 @@ html{
     margin-right: auto;
     z-index: 1;
     text-transform: uppercase;
+    font-weight: 900;
 }
 .menu button:hover {
     background-color: #8b0000;
