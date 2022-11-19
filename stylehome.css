@@ -314,11 +314,10 @@ img{
   position: relative;
   text-align: center;
   top: -5vw;
-  left: 48vw;
   margin-bottom: -8vw;
 }
 .scroll-up button{
-  
+  margin-left: 47.5vw;
   color: white;
   background: black;
   border: none;
