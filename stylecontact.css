@@ -273,10 +273,10 @@ html{
 }
 
 .container {
-    position: relative;
-    top: -53.45vw;
-    left: 41.1vw;
-    width: 58vw;
+    
+    margin-top: -53.45vw;
+    margin-left: 41.97vw;
+    width: 58%;
     height: 70vw;
     padding: 1.4vw;
     background-color: rgb(255, 255, 255);
