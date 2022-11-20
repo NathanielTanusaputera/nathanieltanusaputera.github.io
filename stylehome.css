@@ -17,7 +17,7 @@ body {
     background: black;
   }
 .menu{
-    position: absolute;
+    position: fixed;
     width: 100%;
     background: rgba(0, 0, 0, 0.75);
     text-align: left;
